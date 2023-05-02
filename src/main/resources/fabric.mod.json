@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "magna",
+  "version": "${version}",
+  "name": "Magna",
+  "description": "Magna is the library that powers Vanilla Hammers and other large-break tool mods.",
+  "authors": [
+    "Draylar"
+  ],
+  "contributors": [
+    "GabrielOlvH",
+    "Platymemo"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Draylar/magna",
+    "issues": "https://github.com/Draylar/magna/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/magna/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "draylar.magna.Magna"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [ "library" ]
+    }
+  },
+  "mixins": [
+    "magna.mixins.json"
+  ],
+  "accessWidener": "magna.accessWidener",
+  "depends": {
+    "fabricloader": ">=0.8.9+build.203",
+    "fabric": "*"
+  }
+}
